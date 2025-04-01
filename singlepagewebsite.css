@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#about {
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Make it circular */
+    margin-right: 20px; /* Add some spacing */
+    object-fit: cover; /* Ensure image covers the area */
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+header {
+    background: #f4f4f4; /* Light background for contrast */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Increase font size */
+}
+
+header p {
+    margin: 5px 0; /* Small margin for spacing */
+}
+
+nav {
+    margin: 20px 0; /* Add some margin above the nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold; /* Make text bold */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Change text color on hover */
+    text-decoration: underline; /* Underline text on hover */
+    font-size: 1.1em; /* Slightly increase font size on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+section {
+    padding: 20px;
+}
+
+#skills {
+    padding: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.skills-list li {
+    display: flex; /* Use flexbox for vertical alignment */
+    align-items: center; /* Vertically center the content */
+    margin: 10px; /* Add some spacing between skill items */
+    padding: 10px; /* Add padding inside each skill item */
+    border: 1px solid #ddd; /* Add a border around each skill item */
+    border-radius: 5px; /* Rounded corners for the border */
+}
+
+.skills-list li img {
+    width: 50px; /* Adjust logo size as needed */
+    height: 50px;
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.skills-list li span {
+    font-weight: bold; /* Make the text bold */
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Border around each project */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each project */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.project h3 {
+    margin-top: 0; /* Remove default margin from the heading */
+}
+
+.project p {
+    margin: 10px 0; /* Margin for spacing between elements */
+}
+
+.project a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.project a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+#recommendations {
+    padding: 20px;
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+    margin: 15px 0; /* Margin for spacing between recommendations */
+    font-style: italic; /* Italicize the text */
+}
+
+blockquote footer {
+    margin-top: 10px; /* Space between quote and footer */
+    font-weight: bold; /* Make the footer text bold */
+    color: #555; /* Slightly darker color for footer text */
+}
+
+#recommendation-form {
+    margin-top: 20px; /* Space above the form */
+}
+
+#recommendation-form textarea,
+#recommendation-form input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside inputs */
+    margin: 5px 0; /* Margin for spacing */
+}
+
+#confirmation-dialog {
+    position: fixed; /* Fixed position for dialog */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position */
+    background-color: white; /* White background for dialog */
+    border: 1px solid #ccc; /* Border around dialog */
+    padding: 20px; /* Padding inside dialog */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Shadow effect */
+}
